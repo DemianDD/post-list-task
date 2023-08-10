@@ -1,0 +1,23 @@
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+.post-container{
+    max-width: 250px;
+    max-height: 400px;
+    background-color: transparent;
+    border: #ccc 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.post-text{
+    padding: 5px;
+    font-size: 14px;
+    text-align: justify;
+    max-height: 200px;
+    overflow-y: auto;
+}
